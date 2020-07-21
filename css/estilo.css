@@ -1,0 +1,93 @@
+/*Formatação geral*/
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background: #000000;
+    font-family: Helvetica, Arial sans-serif;
+    color: #fff;
+}
+
+
+/*Formatação do menu*/
+.navbar-dark {
+    font-size: 1.1em;
+    padding-top: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #3498db;
+}
+
+nav.navbar-transparente {
+    background: rgba(0,0,0,0.9);
+}
+
+.navbar-dark .navbar-brand:hover{
+    color: #3498db;
+}
+
+/*Tipografia*/
+.negrito {
+    font-weight: bold;
+}
+
+.texto {
+    font-size: 1.8em;
+    margin: 20px 60px;
+    letter-spacing: 0.1em ;
+    text-transform: uppercase;
+
+}
+
+.color {
+    color: #3498db;
+}
+
+/*Home*/
+#home {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/background.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*imagem*/
+img {
+    width: 380px;
+    filter: grayscale(95%);
+    border-radius: 200px;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+    .navbar-dark {
+        font-size: 1.3em;
+        padding-top: 20px;
+    }
+}
